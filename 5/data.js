@@ -1,7 +1,7 @@
-const usersData = `
+const jsonData = `
 [
   {
-  "imageUrl": "https://w.forfun.com/fetch/07/07a5912517ee8e518442ba5631bf417f.jpeg",
+  "imageUrl": "https://gas-kvas.com/uploads/posts/2023-02/1675476113_gas-kvas-com-p-fonovii-risunok-priroda-rossii-27.jpg",
   "company": "Konopelski - Moen",
   "username": "Owen.Leffler14",
   "role": "administrator",
@@ -16,7 +16,7 @@ const usersData = `
 },
 {
   "imageUrl": "https://gas-kvas.com/grafic/uploads/posts/2023-10/1696602057_gas-kvas-com-p-kartinki-s-prirodoi-18.jpg",
-  "company": "Fritsch, Schinner and Prohaska",
+  "company": "Fritsch, Schinner",
   "username": "Carlo92",
   "role": "administrator",
   "phone": "(097) 313-9120"
