@@ -1,10 +1,9 @@
 const productsList = JSON.parse(productsListData);
+const productContainer = document.querySelector('.product__box__content');
 
 productsList.forEach(productElement => {
-  const productContainer = document.querySelector('.product__box__content');
-
-  const productEl = `
-  <div class="product">
+  const productCardEl = `
+  <div class="product" data-id=${productElement.id}>
     <div class="shadow__block">
       <img class="product__img" src="${productElement.imgUrl}" alt="Product photo">
       <div class="shadow"></div>
@@ -23,5 +22,5 @@ productsList.forEach(productElement => {
     </div>
     `;
 
-    productContainer.insertAdjacentHTML('beforeend', productEl);
+    productContainer.insertAdjacentHTML('beforeend', productCardEl);
 });
